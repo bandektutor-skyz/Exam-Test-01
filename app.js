@@ -71,7 +71,7 @@ function goNext() {
         currentIndex++;
         renderQuestion();
     } else {
-        if (confirm("คุณเตอร์ตรวจสอบคำตอบครบ 150 ข้อแล้วใช่ไหมครับ?")) {
+        if (confirm("คุณตรวจสอบคำตอบครบ 50 ข้อแล้วใช่ไหมครับ?")) {
             finishExam();
         }
     }
