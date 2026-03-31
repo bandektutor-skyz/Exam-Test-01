@@ -31,7 +31,7 @@ function renderQuestion() {
     const q = questions[currentIndex]; 
     
     document.getElementById("progress").innerText = `ข้อที่: ${q.no} / 50`;
-    document.getElementById("category-label").innerText = `หมวดหมู่: ${q.category}`;
+document.getElementById("category-label").innerText = `หมวดหมู่: ${q.category || "ความสามารถทางด้านตัวเลข"}`;
     document.getElementById("question-text").innerText = q.question;
     
     const container = document.getElementById("options-container");
